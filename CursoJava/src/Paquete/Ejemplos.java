@@ -1,0 +1,13 @@
+package Paquete;
+
+public class Ejemplos {
+	
+public static void main (String[] args){
+	int x=0;
+	while(x<=10)
+	{
+		System.out.println("el valoor de X es de: " +x);
+		x=x+2; 
+	}
+}
+}
