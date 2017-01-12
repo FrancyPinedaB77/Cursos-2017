@@ -14,7 +14,7 @@ while (true)
 	temp=x;
 	x=x + anterior;
 	anterior= temp;
-	if (x > 100)
+	if (x > 30)
 	{
 		break;
 	}
