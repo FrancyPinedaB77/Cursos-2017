@@ -3,9 +3,9 @@ package Paquete;
 public class Ejemplos {
 	
 public static void main (String[] args){
-	int x=1;
+	int x=0;
 	boolean cond=true;
-	while(cond==true)
+	while(cond)
 	{
 		System.out.println("el valoor de X es de: " +x);
 		x=x+2; 

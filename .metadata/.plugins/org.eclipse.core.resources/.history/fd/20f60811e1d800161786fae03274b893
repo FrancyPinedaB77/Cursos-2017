@@ -3,7 +3,7 @@ package Paquete;
 public class Ejemplos {
 	
 public static void main (String[] args){
-	int x=1;
+	int x=0;
 	boolean cond=true;
 	while(cond==true)
 	{
