@@ -9,7 +9,7 @@ public static void main (String[] args){
 		System.out.println("Estas dentro del ciclo for");
 			if (i==5)
 				{
-					break; //Sale del ciclo
+					break;
 				}
 		System.out.println("El valor de i es :" +i);
 		}
