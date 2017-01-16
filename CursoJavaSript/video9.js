@@ -1,5 +1,12 @@
-function sumar_numeros(a,b){
+function suma(a,b){
+	b=b || 0;  // De esta manera permitira  
 	return a+b ;
 }
 
-console.log(sumar_numeros(2,3));
+function ejecutar (funcion){
+	return funcion();
+}
+
+var resultado = suma(2);
+
+console.log(resultado);
