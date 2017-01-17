@@ -1,12 +1,14 @@
-function suma(a,b){
-	b=b || 0;  // De esta manera permitira  
-	return a+b ;
+// Metodos para arreglos
+
+function ordenacion(a,b)
+{
+if (a>b){return 1;}
+else if (a<b){return -1;}
+else if (a==b){return 0;}
 }
 
-function ejecutar (funcion){
-	return funcion();
-}
+var arreglo=[2,,10,5,20,1,50];
+arreglo.sort(ordenacion); //ordena el arreglo
+arreglo.reverse();
 
-var resultado = suma(2);
-
-console.log(resultado);
+console.log(arreglo);
