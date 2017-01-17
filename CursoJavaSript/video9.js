@@ -1,23 +1,20 @@
-// Filter ES5
+// Map ES5 Video #15
 
-var numeros=[10,5,2,22,30,50,13,11,21,8];
+var numeros=[2,4,5,6,7,9,10];
+
+
+cuadrados =numeros.map(function(elemento){return elemento*elemento});
+console.log(cuadrados);
 /*
-var numeros_pares=[];
+ var cuadrados=[];
 
-for (var i=numeros.length;i>=0;i--)
-{
-	var numero=numeros[i];
-	if(numero % 2 ==0){
-		numeros_pares.push(numero); // agregla solo los numeros pares 
-	}
-}
+  for (var i= numeros.length-1;i>=0;i--){
+  	var numero=numeros[i];
+  	cuadrados.push(Math.pow(numero,2));
 
-console.log(numeros_pares);
-*/
-// Metodo 2 para encontrar numeros pares 
+  }
 
-var numeros_pares=numeros.filter(function (numero) {
-	return numero % 2 ==0;
-});
+  console.log(cuadrados);
 
-console.log(numeros_pares);
+  */
+
