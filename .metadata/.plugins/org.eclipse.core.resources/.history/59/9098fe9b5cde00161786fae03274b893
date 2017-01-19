@@ -1,13 +1,13 @@
 package paquete;
-import paquete.Carro;
+import paquete.Pelota;
 public class Main {
 	
 	public static void main (String[] args){
 		// Progrmamacion orientada a objentos Ejemplo String texto ="este es el texto"
+		Pelota p= new Pelota(300,200);
+		System.out.println("La pelota pesa:"+p.obtenerPeso());
 		
 		Carro carro1 = new Carro();
-		carro1.estado();
-		carro1.encender();
-		carro1.estado();
+		carra1.obtenerPeso;
 	}
 }

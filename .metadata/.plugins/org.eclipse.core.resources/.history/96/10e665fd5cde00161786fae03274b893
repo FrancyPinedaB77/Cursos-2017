@@ -7,7 +7,5 @@ public class Main {
 		
 		Carro carro1 = new Carro();
 		carro1.estado();
-		carro1.encender();
-		carro1.estado();
 	}
 }

@@ -1,0 +1,22 @@
+package paquete;
+
+public class Carro {
+	double peso;
+	double altura;
+	int numero_puertas;
+	String  modelo;
+	// ESTE ES UN CONSTRUCTOR EN JAVA
+	public Carro() 
+	{
+		this.peso=234;
+		this.altura=1.50;
+		this.numero_puertas=4;
+		this.modelo= "Renault";
+	}
+	//ESTE ES UN MÉTODO EN JAVA Con diferente tipo
+	public double obtenerPeso()
+	{
+		return this.peso;
+	}
+	
+}

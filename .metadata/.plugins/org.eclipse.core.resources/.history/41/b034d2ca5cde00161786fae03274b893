@@ -1,0 +1,32 @@
+package paquete;
+
+public class Carro {
+	double peso;
+	double altura;
+	int numero_puertas;
+	String  modelo;
+	boolean encendido=false;
+	// ESTE ES UN CONSTRUCTOR EN JAVA
+	public Carro() 
+	{
+		this.peso=234;
+		this.altura=1.50;
+		this.numero_puertas=4;
+		this.modelo= "Renault";
+	}
+	//ESTE ES UN MÉTODO EN JAVA con diferente tipos dependiendo  lo que retorne el metodo
+	public double obtenerPeso()
+	{
+		return this.peso;
+	}
+	public void encender()
+	{
+		this.encendido= true;
+		System.out.println("El carro esta encendido");
+	}
+	public void apagar()
+	{
+		this.encendido=false;
+		System.out.println("El carro esta apagado");
+	}
+}
