@@ -36,10 +36,9 @@ public class Carro {
 		else
 			System.out.println("El carro esta apagado");
 	}
-}
 class CarroBMW extends Carro // lo que se hace es un nuevo tipo de objeto dentrode  carro hijo de carro
 {
-	public CarroBMW()
+	public CarroBmW()
 	{
 		this.modelo="BMW";
 		
@@ -49,15 +48,4 @@ class CarroBMW extends Carro // lo que se hace es un nuevo tipo de objeto dentro
 		System.out.println("Acabas de viajar a 100 millas por segundo");
 	}
 }
-
-class CarroToyota extends Carro
-{
-	public CarroToyota(){
-		this.modelo="Toyota";
-	}
-	public String modelo()
-	{
-		return this.modelo;
-	}
 }
-

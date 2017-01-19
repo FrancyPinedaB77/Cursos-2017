@@ -50,14 +50,3 @@ class CarroBMW extends Carro // lo que se hace es un nuevo tipo de objeto dentro
 	}
 }
 
-class CarroToyota extends Carro
-{
-	public CarroToyota(){
-		this.modelo="Toyota";
-	}
-	public String modelo()
-	{
-		return this.modelo;
-	}
-}
-
