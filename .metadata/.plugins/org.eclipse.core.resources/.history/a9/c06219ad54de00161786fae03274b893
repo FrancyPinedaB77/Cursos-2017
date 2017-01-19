@@ -1,0 +1,9 @@
+package Paquete;
+
+public class Ejemplos {
+	
+	public static void main (String[] args){
+		// Progrmamacion orientada a objentos 
+	
+	}
+}

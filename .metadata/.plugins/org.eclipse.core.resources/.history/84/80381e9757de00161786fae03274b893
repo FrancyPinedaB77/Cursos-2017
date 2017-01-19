@@ -1,0 +1,11 @@
+package paquete;
+import paquete.Pelota;
+public class Main {
+	
+	public static void main (String[] args){
+		// Progrmamacion orientada a objentos Ejemplo String texto ="este es el texto"
+		Pelota p;
+		p = new Pelota();
+		System.out.println("La pelota pesa:"+p.obtenerPeso());
+	}
+}

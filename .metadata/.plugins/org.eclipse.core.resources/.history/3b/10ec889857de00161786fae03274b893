@@ -1,0 +1,15 @@
+package paquete;
+
+public class Pelota {
+	float peso;
+	float radio;
+	public Pelota()
+	{
+		radio=100;
+		peso=250;
+	}
+	public float obtenerPeso()
+	{
+		return peso;
+	}
+}
