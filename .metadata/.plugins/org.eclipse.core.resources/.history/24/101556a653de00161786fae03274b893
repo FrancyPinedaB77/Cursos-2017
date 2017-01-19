@@ -13,15 +13,7 @@ public class Ejemplos {
 		x[1][0]= 3;
 		x[1][1]= 4;
 		
-		//Crando un ciclo for para leer los datos de la matriz
-		
-		for (int i=0;i<2;i++)
-		{
-			for (int j=0;j<2;j++)
-			{
-				System.out.println("Posicion en la matriz en x["+i+"] ["+j+"] ="+x[i][j]);
-			}
-		}
+		System.out.println("x[1][1] ="+x[1][1]);
 	
 	}
 }
