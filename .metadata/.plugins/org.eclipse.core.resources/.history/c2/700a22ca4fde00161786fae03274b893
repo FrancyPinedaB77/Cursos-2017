@@ -5,7 +5,7 @@ public class Ejemplos {
 	public static void main (String[] args){
 	// usos de switch y case
 	char x;
-	x='a';
+	x="a";
 	switch(x)
 	{
 	case 'a':
