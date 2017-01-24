@@ -17,10 +17,7 @@ public class Main {
 			texto = buffer.readLine();//Lee el dato del teclado
 		}catch(IOException e){};
 		
-		 texto = texto.concat("aaawertyui"); //.concar para concatenar 
-		 texto = texto.toLowerCase();					//.toLowerCase para pasa a minuscula y toUpperCase
-		 int a = texto.length();
+		 texto = texto.concat("-Texto a concatenar");
 		System.out.println(texto);
-		System.out.println("La frase tiene "+a+" numero de letras");
 	}
 }

@@ -21,6 +21,6 @@ public class Main {
 		 texto = texto.toLowerCase();					//.toLowerCase para pasa a minuscula y toUpperCase
 		 int a = texto.length();
 		System.out.println(texto);
-		System.out.println("La frase tiene "+a+" numero de letras");
+		System.out.println("La frase tiene"+a+"numero de letras");
 	}
 }

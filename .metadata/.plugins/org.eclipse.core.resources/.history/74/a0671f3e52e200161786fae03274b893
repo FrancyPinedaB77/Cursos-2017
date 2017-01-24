@@ -1,0 +1,11 @@
+package paquete;
+public class Main {
+	
+	public static void main (String[] args){
+		// Progrmamacion orientada a objentos Ejemplo String texto ="este es el texto"
+		
+		Carro c;
+		c = new CarroToyota();
+		c.informacion();
+	}
+}
