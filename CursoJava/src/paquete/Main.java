@@ -9,9 +9,11 @@ public class Main {
 	public static void main (String[] args){
 		// Variables de texto en java
 		String texto ="";
-		double x=0;
+		double x=50.3;
 		
+		texto = String.valueOf(x);
 		
+		/*
 		InputStreamReader in = new InputStreamReader(System.in);//Abriendo un canal de datos que recibe  datos desde el exterior
 		BufferedReader buffer = new BufferedReader(in);//Almacena los datos que recje desde el exterior
 		
@@ -21,7 +23,9 @@ public class Main {
 		}catch(IOException e){
 			System.out.println("se debe ingresa un numero");	
 		};
-		System.out.println(x+5);
+		System.out.println(x+5);*/
+		texto = texto.concat("double es texto"+texto);
+		System.out.println(texto);
 		
 	}
 }
