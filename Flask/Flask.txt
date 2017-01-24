@@ -1,0 +1,8 @@
+V1:Flask
+
+La curva de aprendizaje es mas rapida
+
+
+Para installar flask en linux
+
+http://flask.pocoo.org/docs/0.11/installation/
