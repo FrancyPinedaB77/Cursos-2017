@@ -2,7 +2,7 @@ package paquete;
 import java.io.*;
 
 public class Textos {
-	public void leer(String nombreArchivo){ //Se creo el metodo leer dentro de esa clase 
+	public void leer(String nombreArchivo){
 		try{
 			FileReader r= new FileReader(nombreArchivo);//Clase usada para leer archivos de texto
 			BufferedReader buffer = new BufferedReader (r);
