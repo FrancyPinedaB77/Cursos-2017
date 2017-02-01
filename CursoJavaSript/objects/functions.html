@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script type="text/javascript">
+	/*Se crea un obejeto usadndo funciones */
+		function Tutor(nombre,apellido) {
+			this.nombre=nombre;
+			this.apellido=apellido;
+			this.saludar=function(){
+				console.log("Hola a todos mi nombre es:"+this.nombre);
+			}
+			if (typeof apellido!="undefined") {
+			this.nombre_completo=nombre +" "+ apellido;
+			}
+		}
+
+
+		var uriel =new Tutor("Uriel","Rojas");
+		var jose =new Tutor("jose");
+		uriel.saludar();
+		console.log(uriel.nombre_completo);
+		console.log(jose.nombre_completo);
+
+	</script>
+
+</body>
+</html>
