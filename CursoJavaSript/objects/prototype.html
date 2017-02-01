@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script type="text/javascript">
+	/*Se crea un obejeto usadndo funciones */
+		function Tutor(nombre,apellido) {
+			this.nombre=nombre;
+			this.apellido=apellido;
+			this.saludar=function(){
+				console.log("Hola a todos mi nombre es:"+this.nombre);
+			}
+			if (typeof apellido!="undefined") {
+			this.nombre_completo=nombre +" "+ apellido;
+			}
+		}
+
+		Tutor.prototype.edad=22; /*Se le asigana este valor a todos los objetos*/
+		var uriel =new Tutor("Uriel","Rojas");
+		var jose =new Tutor("Jose");
+		/*Los objetos se crean a traves de prototipos */
+		uriel.iniciar=function(){
+			console.log("Iniciando Programa");
+		}
+		uriel.edad=18;
+		console.log(uriel.__proto__);
+		console.log(jose.edad);
+		console.log(uriel.edad);
+
+		uriel.iniciar();
+	
+
+	</script>
+
+</body>
+</html>
