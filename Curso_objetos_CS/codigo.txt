@@ -1,0 +1,6 @@
+proceso  Miproceso
+
+	Definir las intrucciones paso a paso 
+
+
+fin proceso
