@@ -13,6 +13,7 @@ var palabra=letras.reduce(function(valor_anterior_retornado,valor_actual,index,a
 console.log(palabra);
 
 
+
  var numeros =[20,1,11,22];
 
  var palabra2=numeros.reduce(function(valor_anterior_retornado,valor_actual,index,arreglo){
@@ -22,6 +23,7 @@ console.log(palabra);
 console.log(palabra2);
 
 var suma =0;
+
 
 for (var i=0;i<numeros.length;i++){
 	suma+=numeros[i];
